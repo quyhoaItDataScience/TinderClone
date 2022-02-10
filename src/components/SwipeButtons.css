@@ -1,0 +1,29 @@
+.swipeButtons {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.swipeButton {
+  background-color: #fff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 50%;
+}
+.swipeButton__repeat {
+  color: #f5b748 !important;
+}
+.swipeButton__close {
+  color: #ec5e6f !important;
+}
+.swipeButton__star {
+  color: #62b4f9 !important;
+}
+.swipeButton__favorite {
+  color: #f06595 !important;
+}
+.swipeButton__flash {
+  color: #ffe066 !important;
+}

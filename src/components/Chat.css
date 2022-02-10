@@ -1,0 +1,25 @@
+.chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.chat__avatar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.chat__info {
+  text-align: start;
+}
+.chat__name {
+  color: #212529;
+  font-size: 2.5rem;
+}
+.chat__text {
+  font-size: 2rem;
+  color: #adb5bd;
+}
+.chat__time__text {
+  color: #888;
+}
